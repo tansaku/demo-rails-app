@@ -1,5 +1,45 @@
 // Place all the styles related to the success controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1, p, ul {margin: 50px 25%; font-family: Helvetica, sans-serif;}
+
+.box {
+    display: block;
+    width: 800px;
+    margin: 100px auto;
+    border: 2px solid #00B599;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.box a {
+  text-decoration: none;
+  color: #00B599;
+}
+
+.box a:hover {
+  text-decoration: underline;
+  color: #00B599;
+}
+
+.box img {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+}
+.box header {
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.box section {
+  display: block;
+  margin: 10px 0 0 0px;
+  text-align: center;
+}
+
+.box section ul li {
+  list-style-type: none;
+  padding: 2px 0;
+}
+
 
